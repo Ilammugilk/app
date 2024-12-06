@@ -7,9 +7,9 @@ const Myabout = () =>{
                         <img src='./image/about-us.png' alt='' height={500} />
                     </div>
                     <div className='col-lg-6 mt-4 p-5'>
-                        <h1>let’s<br />
-                            Introduce about<br />
-                            myself</h1>
+                    <h1>LET’S<br />
+                            InNTRODUCE ABOUT<br />
+                            MYSELF</h1>
                             <hr/>
                         <p className='text-secondary'>
                             Im Ilammugil from Tamilnadu.I Recently garduate in BSc Computer science,I completed Front-end course through bengalore.<br/> <br/>

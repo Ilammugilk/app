@@ -3,7 +3,6 @@ import Myhome from "./home";
 import Myabout from "./about";
 import Myskill from "./skill";
 import Myproject from "./project";
-import Mypage from "./page";
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
           <div className="collapse navbar-collapse" id="mynavbar">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item me-4">
-                <Link className="nav-link" active to="/page">Home</Link>
+                <Link className="nav-link" active to="/Home">Home</Link>
               </li>
               <li className="nav-item me-4">
                 <Link className="nav-link" active to="/about">About</Link>
@@ -36,8 +35,7 @@ function App() {
 
       </header>
       <Routes>
-        <Route exact path="/Home" element={<Myhome />} />
-        <Route exact path="/page" element={<Mypage/>}/>
+        <Route exact path="/Home" element={<Myhome />}/>
         <Route exact path="/about" element={<Myabout />}/>
         <Route exact path="/skill" element={<Myskill />}/>
         <Route exact path="/project" element={<Myproject/>}/>
