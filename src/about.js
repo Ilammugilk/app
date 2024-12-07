@@ -22,6 +22,17 @@ const Myabout = () =>{
                     </div>
                 </div>
             </div>
+            <section className="bg-dark p-3 myborder">
+              <div className="container">
+                <div className="row">
+                  <div className="col-xl-6"><div className="text-secondary">Copyrigh@uimaster 2023 to 2025</div>
+                  </div>
+                  <div className="col-xl-2"> <div className="text-secondary">Terms of Use</div></div>
+                  <div className="col-xl-2"> <div className="text-secondary">Privacy & Policy</div></div>
+                  <div className="col-xl-2"> <div className="text-secondary">Contact Us</div></div>
+                </div>
+              </div>
+            </section>
         </section>
     );
 }
