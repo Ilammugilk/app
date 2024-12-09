@@ -22,6 +22,10 @@ const Myhome = () => {
                             <button className='btn btn-dark pt-2' id="button">
                             <a href="https://www.linkedin.com/in/ilammugil">Contact Me</a></button>
                         </p>
+                        <span className='mt-2'>
+                            Welcome to my portfolio.<br/>
+                            Here you'll find a selection of my work. Explore my projects to learn more about what I do!!
+                        </span>
                     </div>
                     <div className="col-lg-6 mt-4 p-5">
                         <img src={img1} alt="logo" height={290} width={300} />
@@ -32,7 +36,7 @@ const Myhome = () => {
             <div className='container-fuild bg-light'>
                 <div className='row mt-5'>
                     <div className='col-lg-6 p-5 mt-4'>
-                        <img src='./image/about-us.png' alt='' height={500} />
+                        <img src='./image/about-logo.jpg' alt='' height={500} />
                     </div>
                     <div className='col-lg-6 mt-4 p-5'>
                         <h1>LET’S<br />
@@ -49,60 +53,74 @@ const Myhome = () => {
                         </p>
                     </div>
                 </div>
+            </div>        
+        <section>
+            <div className='row'>
+                <div className='col-lg-12 p-4'>
+                    <h2 className='text-dark text-center'>Technical Kills</h2>
+                </div>
             </div>
-                <div className='row'>
-            <div className='col-lg-12 p-4'>
-                <h2 className='text-dark text-center'>Technical Kills</h2>
+            <div className='container rounded bg-dark'>
+                <div className="slider-container p-5">
+                    <Slider {...settings}>
+                        <div className="card p-3">
+                            <div className="card-body">
+                                <h5 className="card-title text-center">HTML</h5>
+                                <img src='./image/html-5.png' className='img-fluid' />
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title text-center">CSS</h5>
+                                <img src='./image/css-3.png' className='img-fluid' />
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title text-center">JS</h5>
+                                <img src='./image/js.png' className='img-fluid' />
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title text-center">React JS</h5>
+                                <img src='./image/physics.png' className='img-fluid' />
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title text-center">Bootstrap</h5>
+                                <img src='./image/bootstrap.png' className='img-fluid' />
+                            </div>
+                        </div>
+
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title text-center">Responsive Website</h5>
+                                <img src='./image/responsive-design.png' className='img-fluid' />
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title text-center">Git Hub</h5>
+                                <img src='./image/git.png' className='img-fluid' />
+                            </div>
+                        </div>
+                    </Slider>
+                </div>
             </div>
-        </div>
-        <div className='container rounded bg-dark'>
-            <div className="slider-container p-5">
-              <Slider {...settings}>
-              <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title text-center">HTML</h5>
-                            <img src='./image/html-5.png' className='img-fluid' />
+            <section className="bg-dark p-3 myborder mt-3">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-6"><div className="text-secondary">Copyrigh@uimaster 2023 to 2025</div>
                         </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title text-center">CSS</h5>
-                            <img src='./image/css-3.png' className='img-fluid' />
-                        </div>
-                    </div>
-                <div>
-                <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title text-center">JS</h5>
-                            <img src='./image/js.png' className='img-fluid' />
-                        </div>
+                        <div className="col-xl-2"> <div className="text-secondary">Terms of Use</div></div>
+                        <div className="col-xl-2"> <div className="text-secondary">Privacy & Policy</div></div>
+                        <div className="col-xl-2"> <div className="text-secondary">Contact Us</div></div>
                     </div>
                 </div>
-                <div>
-                <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title text-center">React JS</h5>
-                            <img src='./image/physics.png' className='img-fluid' />
-                        </div>
-                    </div>
-                </div>
-                <div>
-                <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title text-center">Bootstrap</h5>
-                            <img src='./image/bootstrap.png' className='img-fluid' />
-                        </div>
-                    </div>
-                </div>
-                <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title text-center">Responsive Website</h5>
-                            <img src='./image/responsive-design.png' className='img-fluid' />
-                        </div>
-                    </div>
-              </Slider>
-            </div>
-            </div>
+            </section>
+        </section>
         <div className='container-fuild bg-teritary ms-5 me-5'>
         <div className='row'>
             <div className='col-lg-12 p-4'>

@@ -10,7 +10,7 @@ function App() {
       <header>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark rounded me-3 ms-3">
         <div className="container">
-          <Link className="navbar-brand" active to="">Ilammugil</Link>
+          <Link className="navbar-brand">Ilammugil</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
